@@ -26,8 +26,8 @@
             <nav class="nav">
                 <a class="logo header-logo nohover link" href="./index.html"><span class="accent">Web</span>Studio</a>
                 <ul class="nav-list list">
-                    <li class="nav-item underline">
-                        <a class="nav-link link" href="./index.html" target="_self">Studio</a>
+                    <li class="nav-item">
+                        <a class="nav-link link underline" href="./index.html" target="_self">Studio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link" href="./portfolio.html" target="_self">Portfolio</a>
@@ -53,7 +53,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button class="hero-btn btn" type="button">
+                <button class="hero-btn btn" type="button" data-modal-open>
                     Order Service
                 </button>
             </div>
@@ -117,20 +117,18 @@
         </section>
         <section class="we-doing section">
             <div class="container">
-                <div class="we-doing-box">
-                    <h2 class="we-doing-title title">What are we doing</h2>
-                    <ul class="we-doing-list list">
-                        <li class="we-doing-item">
-                            <img src="./images/main/what-we-are-doing-1.jpg" alt="live statistics" />
-                        </li>
-                        <li class="we-doing-item">
-                            <img src="./images/main/what-we-are-doing-2.jpg" alt="mobile messaging" />
-                        </li>
-                        <li class="we-doing-item">
-                            <img src="./images/main/what-we-are-doing-3.jpg" alt="monitoring from a mobile device" />
-                        </li>
-                    </ul>
-                </div>
+                <h2 class="title">What are we doing</h2>
+                <ul class="we-doing-list list">
+                    <li class="we-doing-item">
+                        <img src="./images/main/what-we-are-doing-1.jpg" alt="live statistics" />
+                    </li>
+                    <li class="we-doing-item">
+                        <img src="./images/main/what-we-are-doing-2.jpg" alt="mobile messaging" />
+                    </li>
+                    <li class="we-doing-item">
+                        <img src="./images/main/what-we-are-doing-3.jpg" alt="monitoring from a mobile device" />
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="team section">
@@ -382,6 +380,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <a href="" class="close-btn btn" data-modal-close>
+                <svg class="close-icon">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
