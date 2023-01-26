@@ -27,7 +27,7 @@ body {
     --modal-color: #fcfcfc;
     --bg-hero-gradient: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7));
-    --duration: 5000ms;
+    --duration: 250ms;
     --bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
