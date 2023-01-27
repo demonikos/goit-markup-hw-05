@@ -406,21 +406,21 @@ button {
     height: 100%;
 }
 
-/* .gallery-item:is(:hover, :focus) .gallery-overlay {
+.gallery-item:is(:hover, :focus) .gallery-overlay {
     transform: translateY(0);
 }
 
-.gallery-link:is(:hover, :focus) .gallery-overlay {
+/* .gallery-link:is(:hover, :focus) .gallery-overlay {
     transform: translateY(0);
 } */
 
-.gallery-item:hover .gallery-overlay {
+/* .gallery-item:hover .gallery-overlay {
     transform: translateY(0);
 }
 
 .gallery-link:focus .gallery-overlay {
     transform: translateY(0);
-}
+} */
 
 
 
